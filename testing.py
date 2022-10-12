@@ -6,7 +6,7 @@ def test_susbistas_impares_1():
     assert Portafolio2.susbistas_impares([23, 6756, 5533, 811]) == [[2,3], [5,5,3,3], [8, 1, 1]]
     
 def test_susbistas_impares_2():
-    assert Portafolio2.susbistas_impares ([152, 45, 60]) == [[4,5]]
+    assert Portafolio2.susbistas_impares([152, 45, 60]) == [[4,5]]
 
 def test_susbistas_impares_3():
     assert isinstance(str(Portafolio2.susbistas_impares ([])), str) == isinstance("Error en la entrada, no se permite lista vacía", str)
