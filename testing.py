@@ -3,13 +3,13 @@ import pytest;
 
 
 def test_susbistas_impares_1():
-    assert Portafolio2.susbListas_impares([23, 6756, 5533, 811]) == [[2,3], [5,5,3,3], [8, 1, 1]]
+    assert Portafolio2.subListas_impares([23, 6756, 5533, 811]) == [[2,3], [5,5,3,3], [8, 1, 1]]
     
 def test_susbistas_impares_2():
-    assert Portafolio2.susbListas_impares([152, 45, 60]) == [[4,5]]
+    assert Portafolio2.subListas_impares([152, 45, 60]) == [[4,5]]
 
 def test_susbistas_impares_3():
-    assert isinstance(str(Portafolio2.susbListas_impares ([])), str) == isinstance("Error en la entrada, no se permite lista vacía", str)
+    assert isinstance(str(Portafolio2.subListas_impares ([])), str) == isinstance("Error en la entrada, no se permite lista vacía", str)
 ###########################################################################
 
 def test_es_computable_1():
